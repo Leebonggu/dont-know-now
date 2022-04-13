@@ -7,7 +7,7 @@ const Container = styled.div`
 `;
 
 const Home: NextPage = () => {
-  return <Container>Hello</Container>;
+  return <div>Hello</div>;
 };
 
 export default Home;
