@@ -1,4 +1,5 @@
 import { DefaultButton } from '@components/Layout/atom/Button';
+import { DefaultInput } from '@components/Layout/atom/Input';
 import type { NextPage } from 'next';
 import styled from 'styled-components';
 
@@ -8,7 +9,12 @@ const Container = styled.div`
 `;
 
 const Home: NextPage = () => {
-  return <DefaultButton>Hello</DefaultButton>;
+  return (
+    <>
+      <DefaultButton>Hello</DefaultButton>
+      <DefaultInput />
+    </>
+  );
 };
 
 export default Home;
